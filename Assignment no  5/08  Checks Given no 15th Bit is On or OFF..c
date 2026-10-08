@@ -3,20 +3,20 @@
 
 int main()
 {
-    int No=0;
+    int No = 0;
 
     printf("\nEnter Number = ");
-    scanf("5d",&No);
+    scanf("%d", &No);
 
-    if(No>>2&14==1)
+    if((No >> 14) & 1)
     {
-        printf("\n**************");
+        printf("\n15th Bit is On");
     }
     else
     {
-        printf("\n/////////////");
+        printf("\n15th Bit is Off");
     }
 
-getch();
-return 0;
+    getch();
+    return 0;
 }
